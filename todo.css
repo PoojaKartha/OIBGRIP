@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+	background: #bdba03;
+	overflow: auto;
+	
+	
+}
+.cell{
+	text-align: center;
+	margin: 5%;
+	font-size: 40px;
+	text-decoration:underline;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row{
+	text-align: left;
+	padding-left: 10%;
+	padding: 7%;
+	font-size: 23px;
+	list-style: circle;
+	
+	background-color: rgb(169, 182, 169);
+	
+}
+
+.box{
+	color:rgb(5, 5, 5);
+	margin: 5%;
+	transition: 1.5s ease;
+	cursor: pointer;
+	border-color: rgb(253, 252, 252);
+}
+
